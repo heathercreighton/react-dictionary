@@ -10,10 +10,7 @@ const WordSearch = () => {
   const [result, setResult] = useState([])
   const [word, setWord] = useState("")
 
-  const handleGetWord = (value) => {
-    
-    setWord(value) 
-  }
+ 
   const searchString = `${baseUrl}/${word}`
  
   useEffect(() => {

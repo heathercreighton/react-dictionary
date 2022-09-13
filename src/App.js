@@ -8,9 +8,7 @@ const wordList = ["angry", "nonsense", "infatuation", "competition"]
 export default function App() {
   return (
     <div>
-
-    
-    <WordSearch />
+      <WordSearch />
       
     </div>
   );
