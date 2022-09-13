@@ -4,14 +4,14 @@ import WordSearch from "./components/WordSearch.js"
 
 const wordList = ["angry", "nonsense", "infatuation", "competition"]
 
+
 export default function App() {
   return (
     <div>
-      {wordList.map( w => <WordSearch word={w} />)}
-      
-     
 
-  
+    
+    <WordSearch />
+      
     </div>
   );
 }
